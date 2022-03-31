@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Language" content="es-mx">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>AVANCE DE PROYECTO</title>
+</head>
+
+<body bgcolor="#5263E6">
+
+<div style="position: absolute; width: 682px; height: 62px; z-index: 1; left: 200px; top: 34px" id="capa1">
+    <p align="center"><font size="7" color="#FFFFFF">AVANCE DE PROYECTO</font></p>
+    <p>&nbsp;</div>
+<div style="position: absolute; width: 1000px; height: 1500px; z-index: 2; left: 25px; top: 210px; background-color:#2A2E4C" id="capa2">
+    &nbsp;<p align="center"><font color="#FFFFFF">RESUMEN DEL PROYECTO</font></p>
+    <table border="1" width="100%">
+        <tr>
+            <td width="167">
+                <p align="center"><font color="#FFFFFF">FECHA DEL INFORME</font></td>
+            <td width="268">
+                <p align="center"><font color="#FFFFFF">NOMBRE DEL PROYECTO</font></td>
+            <td>
+                <p align="center"><font color="#FFFFFF">LÍDER DE PROYECTO</font></td>
+        </tr>
+        <tr>
+            <td width="167">
+                <p align="center">
+                    <input class="default" type="text"
+                           name="fechaInformeA"  placeholder="DD/MM/AA" size="23"></td>
+            <td width="268">
+                <p align="center">
+                    <input class="default" type="text"
+                           name="nomProyectoA"  placeholder="Escribir nombre proyecto" size="37"></td>
+            <td>
+                <p align="center">
+                    <input class="default" type="text"
+                           name="LidProyectoA"  placeholder="Escribir lider de proyecto" size="35"></td>
+        </tr>
+    </table>
+    <p align="center"><font color="#FFFFFF">RESUMEN DEL ESTADO</font></p>
+    <form method="POST" action="--WEBBOT-SELF--">
+
+        <p align="center"><font color="#FFFFFF">
+            <textarea rows="10" name="resumendeestadoA" cols="87"></textarea></font></p>
+    </form>
+    <p align="center"><font color="#FFFFFF">INFORMACIÓN GENERAL DEL PROYECTO</font></p>
+    <table border="1" width="99%">
+        <tr>
+            <td>
+                <p align="center"><font color="#FFFFFF">TAREA</font></td>
+            <td>
+                <p align="center"><font color="#FFFFFF">% HECHO</font></td>
+            <td width="183">
+                <p align="center"><font color="#FFFFFF">FECHA DE VENCIMIENTO</font></td>
+            <td>
+                <p align="center"><font color="#FFFFFF">OBSERVACIONES</font></td>
+        </tr>
+        <tr>
+            <td>
+                <p align="center">
+                    <input class="default" type="text"
+                           name="TareaA"  placeholder="Escribir tarea asignada" size="25"></td>
+            <td>
+                <p align="center">
+                    <input class="default" type="text"
+                           name="porhechoA"  placeholder="Escribir porcentaje hecho de la tarea" size="25"></td>
+            <td width="183">
+                <p align="center">
+                    <input class="default" type="text"
+                           name="fecvencimientoA"  placeholder="DD/MM/AA" size="25"></td>
+            <td>
+                <p align="center">
+                    <input class="default" type="text"
+                           name="obsergeneralA"  placeholder="Escribir Observaciones" size="25"></td>
+        </tr>
+    </table>
+    <p align="center"><font color="#FFFFFF">INFORMACIÓN GENERAL DE PRESUPUESTO</font></p>
+    <table border="1" width="100%">
+        <tr>
+            <td>
+                <p align="center"><font color="#FFFFFF">CATEGORÍA</font></td>
+            <td>
+                <p align="center"><font color="#FFFFFF">GASTO</font></td>
+            <td>
+                <p align="center"><font color="#FFFFFF">% DEL TOTAL</font></td>
+            <td>
+                <p align="center"><font color="#FFFFFF">OBSERVACIONES</font></td>
+        </tr>
+        <tr>
+            <td>
+                <p align="center">
+                    <input class="default" type="text"
+                           name="categoriapresupuestoA"  placeholder="Escribir categoria" size="25"></td>
+            <td>
+                <p align="center">
+                    <input class="default" type="text"
+                           name="gastopresupuestoA"  placeholder="Escribir gasto" size="25"></td>
+            <td>
+                <p align="center">
+                    <input class="default" type="text"
+                           name="portotalpresupuestoA"  placeholder="porcentaje con respecto al total" size="25"></td>
+            <td>
+                <p align="center">
+                    <input class="default" type="text"
+                           name="obserpresupuestoA"  placeholder="Escribir Observaciones" size="25"></td>
+        </tr>
+    </table>
+    <p align="center"><font color="#FFFFFF">RIESGO E HISTORIAL DE PROBLEMAS</font></p>
+    <table border="1" width="100%">
+        <tr>
+            <td>
+                <p align="center"><font color="#FFFFFF">PROBLEMA</font></td>
+            <td>
+                <p align="center"><font color="#FFFFFF">ASIGNADO A</font></td>
+            <td width="253">
+                <p align="center"><font color="#FFFFFF">FECHA</font></td>
+        </tr>
+        <tr>
+            <td>
+                <p align="center">
+                    <input class="default" type="text"
+                           name="problemaRiesgoA"  placeholder="Escribir el problema" size="27"></td>
+            <td>
+                <p align="center">
+                    <input class="default" type="text"
+                           name="asignadoRiesgoA"  placeholder="Escribir aquien fue asignado" size="33"></td>
+            <td width="253">
+                <p align="center">
+                    <input class="default" type="text"
+                           name="fechaRiesgoA"  placeholder="DD/MM/AA" size="35"></td>
+        </tr>
+    </table>
+    <p align="center"><font color="#FFFFFF">CONCLUSIONES Y RECOMENDACIONES</font></p>
+    <p align="center"><font color="#FFFFFF">
+        <textarea rows="10" name="conclusionesyrecomendacionesA" cols="87"></textarea></font></p>
+    <p align="center">&nbsp;</p>
+    <p align="center">
+        <button name="actualizar" align="center">Actualizar</button>
+    </p>
+    <p align="center">&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</div>
+
+<p>
+    <a href="index.html">
+        <input align="center" type="button" value="Inicio"></a></p>
+
+</body>
+</html>

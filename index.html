@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Language" content="es-mx">
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <title>index</title>
+        </head>
+
+    <body bgcolor="#5263E6" align="center" >
+
+    <div style="background-position: 0% 0%; position: absolute; width: 600px; height: 350px; z-index: 2; left: 450px; background-color:#2A2E4C; background-repeat:repeat; top:150px" id="capa2">
+        &nbsp;<p align="center"><font color="#FFFFFF">INICIO DE SECCIÓN </font></p>
+        <form id="formulario-inicio" class="card-body">
+        <table border="1" width="100%" height="180">
+
+                <tr>
+                    <td width="183"><font color="#FFFFFF">NOMBRE</font></td>
+                    <td><font color="#FFFFFF">CONTRASEÑA</font></td>
+                </tr>
+                <tr>
+                    <td width="183" class="form-group" >
+                        <input type="text"
+                               name="usuario"  placeholder="Escribir Usuario" size="25" id="usuario" ></td>
+                    <td class="form-group">
+                        <input  type="password"
+                               name="clave"  placeholder="Escribir contraseña" size="25" id="clave" class="form.control"></td>
+                </tr>
+                <tr>
+                    <td width="183" height="26"><font color="#FFFFFF">ROL</font></td>
+                    <td height="26">
+                        <select name="rol" class="default" size="1" id="rol">
+                            <option value="0">Seleccionar</option>
+                            <option value="1">Lider de proyecto</option>
+                            <option value="2">Estudiante</option>
+                            <option value="3">Asesor</option>
+                        </select></td>
+                </tr>
+
+        </table>
+        <p align="center">
+
+<!--       <button type="button" align="center" onclick="inicioSesion()">Iniciar</button>-->
+            <BUTTON type="button">Iniciar</BUTTON>
+        </p>
+        </form>
+         <div style="position: absolute; width: 314px; height: 52px; z-index: 1; left: -400px; top: 118px" id="capa3">
+            <font color="#FFFFFF">En este espacio podrá ingresar los diversos avances
+                que se han realizado en el proyecto.</font></div>
+
+    </div>
+
+    <p>&nbsp;</p>
+    <div style="position: absolute; width: 413px; height: 185px; z-index: 1; left: 10px; top: 53px" id="capa1">
+        <p align="center"><font size="7" color="#FFFFFF">AVANCE DE PROYECTO</font></p>
+        <p>&nbsp;</div>
+    <script type="text/javascript" scr="js\controlador.js">
+
+    </script>
+    </body>
+<!--    <body>-->
+<!--    <table width="957" ALIGN="CENTER">-->
+<!--        <tr>-->
+<!--            <td width="176">-->
+<!--                <p align="left">-->
+<!--                    <button name="inicio" type="button">-->
+<!--                <p align="left">Inicio</button>-->
+<!--            </td>-->
+<!--            <td colspan="100" rowspan="2">-->
+<!--                <p align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+<!--                    (NOMBRE USUARIO)-->
+<!--            </td>-->
+<!--            <TD colspan="100" width="161">-->
+<!--                <p align="center">líder proyecto-->
+<!--            </TD>-->
+<!--        </tr>-->
+<!--    </table >-->
+
+<!--    <p>&nbsp;</p>-->
+<!--    <p>&nbsp;</p>-->
+<!--    <p align="center"><font size="6">AVANCE DE PROYECTO</font></p>-->
+<!--    <p align="center">PROYECTO: CÓDIGO 1</p>-->
+<!--    <p>&nbsp;</p>-->
+<!--    <form name="form1" action="/ManejoFormulario/Procesamiento"-->
+<!--          method="post" onsubmit="return validarForma(this);">-->
+
+<!--        <input type="hidden" name="oculto" value="ValorOculto">-->
+
+<!--        <table width="200" id="one-colum-emphasis" align="center">-->
+<!--            <caption>-->
+<!--                INFORMACIÓN DEL INVESTIGADOR RESPONSABLE DEL PROYECTO-->
+<!--                <table border="0" width="100%" cellspacing="1" cellpadding="0">-->
+<!--                    <tr>-->
+<!--                        <td  width="442" align="right" >NOMBRE Y APELLIDOS:</td>-->
+<!--                        <td align="left">-->
+<!--                            <input class="default" type="text"-->
+<!--                                   name="usuario" value="Escribir Usuario" size="60"></td>-->
+<!--                    </tr>-->
+<!--                    <tr>-->
+<!--                        <td width="442" align="right">CEDULA DE IDENTIFICACIÓN:</td>-->
+
+<!--                        <td align="left">-->
+<!--                            <input class="default" type="text"-->
+<!--                                   name="cedula" value="Escribir cedula" size="60"></td>-->
+<!--                    </tr>-->
+<!--                    <tr>-->
+<!--                        <td width="442" align="right">PROFESIÓN:</td>-->
+
+<!--                        <td align="left">-->
+<!--                            <input class="default" type="text"-->
+<!--                                   name="profesion" value="Escribir profesion" size="60"></td>-->
+<!--                    </tr>-->
+<!--                    <tr>-->
+<!--                        <td width="442" align="right">PROGRAMA ACADÉMICO:</td>-->
+<!--                        <td align="left">-->
+<!--                            <input class="default" type="text"-->
+<!--                                   name="programaA" value="Escribir programa academico" size="60"></td>-->
+<!--                    </tr>-->
+<!--                    <tr>-->
+<!--                        <td width="442" align="right">TELÉFONO:</td>-->
+<!--                        <td align="left">-->
+<!--                            <input class="default" type="text"-->
+<!--                                   name="telefono" value="Escribir telefono" size="60"></td>-->
+<!--                    </tr>-->
+<!--                    <tr>-->
+<!--                        <td width="442" align="right">CORREO ELECTRÓNICO:</td>-->
+<!--                        <td align="left">-->
+<!--                            <input class="default" type="text"-->
+<!--                                   name="email0" value="Escribir Email" size="60"></td>-->
+<!--                    </tr>-->
+<!--                </table>-->
+<!--            </caption>-->
+<!--        /*<table width="200">-->
+<!--            <tr>-->
+<!--                <td>-->
+<!--                    <button name="inicio" type="button">Inicio</button>-->
+<!--                </td>-->
+<!--                <td colspan="100" rowspan="2">-->
+<!--                     (NOMBRE USUARIO)-->
+<!--                </td>-->
+<!--                <TD colspan="100">-->
+<!--                    lider proyecto-->
+<!--                </TD>-->
+<!--            </tr>-->
+<!--        </table>-->
+
+<!--        <h1>Registrate en nuestro formulario</h1>-->
+<!--        <form name="form1" action="/ManejoFormulario/Procesamiento" -->
+<!--              method="post" onsubmit="return validarForma(this);">-->
+<!--            -->
+<!--            <input type="hidden" name="oculto" value="ValorOculto">-->
+<!--            -->
+<!--            <table width="200" id="one-colum-emphasis">-->
+<!--                <caption>-->
+<!--                    formulario de Registro de Datos-->
+<!--                </caption>-->
+<!--                <tr>-->
+<!--                    <td class="oce-first">-->
+<!--                        Usuario (*)-->
+<!--                    </td>-->
+<!--                    <td>-->
+<!--                        <input class="default" type="text" -->
+<!--                               name="usuario" value="Escribir Usuario">-->
+<!--                    </td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td class="oce-first">-->
+<!--                        Email (*)-->
+<!--                    </td>-->
+<!--                    <td>-->
+<!--                        <input class="default" type="text" -->
+<!--                               name="email" value="Escribir Email">-->
+<!--                    </td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td class="oce-first">-->
+<!--                        Password (*)-->
+<!--                    </td>-->
+<!--                    <td>-->
+<!--                        <input class="default" type="password" -->
+<!--                               name="password" onfocus="this.select();">-->
+<!--                    </td>-->
+<!--                </tr>-->
+<!--                                <tr>-->
+<!--                    <td class="oce-first">-->
+<!--                        Tecnolog&iacute;as de Inter&eacute;s: (*)-->
+<!--                    </td>-->
+<!--                    <td>-->
+<!--                        Java <input type="checkbox" name="tecnologia" value="java">-->
+<!--                        &nbsp;&nbsp;&nbsp;-->
+<!--                        Python <input type="checkbox" name="tecnologia" value="puthon">-->
+<!--                        &nbsp;&nbsp;&nbsp;-->
+<!--                        .Net <input type="checkbox" name="tecnologia" value="net">-->
+<!--                        &nbsp;&nbsp;&nbsp;-->
+<!--                        Php <input type="checkbox" name="tecnologia" value="php">-->
+<!--                    </td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td class="ocefirst">-->
+<!--                        G&eacute;nero: (*)-->
+<!--                    </td>-->
+<!--                    <td>-->
+<!--                        Hombre <input type="radio" name="genero" value="H">-->
+<!--                        &nbsp;&nbsp;&nbsp;&lt;!&ndash; genera espacios estre los elemntos &ndash;&gt;-->
+<!--                        Mujer <input type="radio" name="genero" value="M">-->
+<!--                    </td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td class="oce-first">-->
+<!--                        Ocupaci&oacute;nes: (*)-->
+<!--                    </td>-->
+<!--                    <td>-->
+<!--                        <select name="ocupacion" class="default">-->
+<!--                            <option value="">Seleccionar</option>-->
+<!--                            <option value="1">Profesor</option>-->
+<!--                            <option value="2">Alumno</option>-->
+<!--                            <option value="3">Jubilado</option>-->
+<!--                            <option value="4">Otro</option>-->
+<!--                        </select>-->
+<!--                    </td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td class="oce-first">-->
+<!--                        M&uacute;sica Favorita:-->
+<!--                    </td> -->
+<!--                    <td>-->
+<!--                        <select name="musica" multiple class="dafault">-->
+<!--                            <option value="electronica">Electronica</option>-->
+<!--                            <option value="salsa">Salsa</option>-->
+<!--                            <option value="pop">Pop</option>-->
+<!--                        </select>-->
+<!--                    </td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td class="oce-first">-->
+<!--                        Comentarios:-->
+<!--                    <td>-->
+<!--                    <td>-->
+<!--                        <textarea name="comentario" cols="30" rows="2"-->
+<!--                                  class="default" onfocus="this.select();">-->
+<!--                            Escribe un Texto-->
+<!--                        </textarea>-->
+<!--                    </td>-->
+<!--                </tr>-->
+<!--                <tr style="text-aling:center;">-->
+<!--                    <td>-->
+<!--                        <input type="reset" value="Limpiar" class="default">-->
+<!--                    </td>-->
+<!--                    <td>-->
+<!--                        <input type="submit" value="Enviar" class="default">-->
+<!--                    </td>-->
+<!--                </tr>-->
+<!--            </table>*/-->
+            
+        </form>
+    </body>
+    
+    
+    
+</html>

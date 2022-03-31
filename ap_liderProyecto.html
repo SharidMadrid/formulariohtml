@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Language" content="es-mx">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>AVANCE DE PROYECTO</title>
+</head>
+
+<body bgcolor="#5263E6">
+
+<form>
+    <a href="index.html">
+        <input align="center" type="button" value="Inicio">
+    </a>
+</form>
+<div style="position: absolute; width: 682px; height: 62px; z-index: 1; left: 200px; top: 34px" id="capa1">
+    <p align="center"><font size="7" color="#FFFFFF">AVANCE DE PROYECTO</font></p>
+    <p>&nbsp;</div>
+<div style="position: absolute; width: 1000px; height: 1300px; z-index: 2; left: 25px; top: 210px; background-color:#2A2E4C" id="capa2">
+    &nbsp;<p align="center"><u><font color="#FFFFFF">RESUMEN DEL PROYECTO</font></u></p>
+    <table border="1" width="100%">
+        <tr>
+            <td width="167">
+                <p align="center"><u><font color="#FFFFFF">FECHA DEL INFORME</font></u></td>
+            <td width="268">
+                <p align="center"><u><font color="#FFFFFF">NOMBRE DEL PROYECTO</font></u></td>
+            <td>
+                <p align="center"><u><font color="#FFFFFF">LÍDER DE PROYECTO</font></u></td>
+        </tr>
+        <tr>
+            <td width="167">
+                <p align="center">
+                    <input class="default"
+                           name="fechaInformeLP"  placeholder="DD/MM/AA" size="23" ></td>
+            <td width="268">
+                <p align="center">
+                    <input class="default"
+                           name="nomProyectoLP"  placeholder="Escribir nombre proyecto" size="37" ></td>
+            <td>
+                <p align="center">
+                    <input class="default"
+                           name="LidProyectoLP"  placeholder="Escribir lider de proyecto" size="35" ></td>
+        </tr>
+    </table>
+    <p align="center"><u><font color="#FFFFFF">RESUMEN DEL ESTADO</font></u></p>
+    <form method="POST" action="--WEBBOT-SELF--">
+
+        <p align="center"><font color="#FFFFFF">
+            <textarea rows="10" name="resumenEstadoLP" cols="85" ></textarea></font></p>
+    </form>
+    <p align="center"><u><font color="#FFFFFF">INFORMACIÓN GENERAL DEL PROYECTO</font></u></p>
+    <table border="1" width="99%">
+        <tr>
+            <td>
+                <p align="center"><u><font color="#FFFFFF">TAREA</font></u></td>
+            <td>
+                <p align="center"><u><font color="#FFFFFF">% HECHO</font></u></td>
+            <td width="183">
+                <p align="center"><u><font color="#FFFFFF">FECHA DE VENCIMIENTO</font></u></td>
+            <td>
+                <p align="center"><u><font color="#FFFFFF">OBSERVACIONES</font></u></td>
+        </tr>
+        <tr>
+            <td>
+                <p align="center">
+                    <input class="default"
+                           name="TareaLP"  placeholder="Escribir tarea asignada" size="25" ></td>
+            <td>
+                <p align="center">
+                    <input class="default"
+                           name="porhechoLP"  placeholder="Escribir porcentaje hecho de la tarea" size="25" ></td>
+            <td width="183">
+                <p align="center">
+                    <input class="default"
+                           name="fecvencimientoLP"  placeholder="DD/MM/AA" size="25" ></td>
+            <td>
+                <p align="center">
+                    <input class="default"
+                           name="obsergeneralLP"  placeholder="Escribir Observaciones" size="20" ></td>
+        </tr>
+    </table>
+    <p align="center"><u><font color="#FFFFFF">INFORMACIÓN GENERAL DE PRESUPUESTO</font></u></p>
+    <table border="1" width="100%">
+        <tr>
+            <td>
+                <p align="center"><u><font color="#FFFFFF">CATEGORÍA</font></u></td>
+            <td>
+                <p align="center"><u><font color="#FFFFFF">GASTO</font></u></td>
+            <td>
+                <p align="center"><u><font color="#FFFFFF">% DEL TOTAL</font></u></td>
+            <td>
+                <p align="center"><u><font color="#FFFFFF">OBSERVACIONES</font></u></td>
+        </tr>
+        <tr>
+            <td>
+                <p align="center">
+                    <input class="default"
+                           name="categoriapresupuestoLP"  placeholder="Escribir categoria" size="25" ></td>
+            <td>
+                <p align="center">
+                    <input class="default"
+                           name="gastopresupuestoLP"  placeholder="Escribir gasto" size="25"></td>
+            <td>
+                <p align="center">
+                    <input class="default"
+                           name="portotalpresupuestoLP"  placeholder="porcentaje con respecto al total" size="25" ></td>
+            <td>
+                <p align="center">
+                    <input class="default"
+                           name="obserpresupuestoLP"  placeholder="Escribir Observaciones" size="20" ></td>
+        </tr>
+    </table>
+    <p align="center"><u><font color="#FFFFFF">RIESGO E HISTORIAL DE PROBLEMAS</font></u></p>
+    <table border="1" width="100%">
+        <tr>
+            <td>
+                <p align="center"><u><font color="#FFFFFF">PROBLEMA</font></u></td>
+            <td>
+                <p align="center"><u><font color="#FFFFFF">ASIGNADO A</font></u></td>
+            <td width="253">
+                <p align="center"><u><font color="#FFFFFF">FECHA</font></u></td>
+        </tr>
+        <tr>
+            <td>
+                <p align="center">
+                    <input class="default"
+                           name="problemaRiesgoLP"  placeholder="Escribir el problema" size="27" ></td>
+            <td>
+                <p align="center">
+                    <input class="default"
+                           name="asignadoRiesgoLP"  placeholder="Escribir aquien fue asignado" size="33" ></td>
+            <td width="253">
+                <p align="center">
+                    <input class="default"
+                           name="fechaRiesgoLP"  placeholder="DD/MM/AA" size="35" ></td>
+        </tr>
+    </table>
+    <p align="center">&nbsp;</p>
+    <p align="center">
+        <button name="actualizar" align="center"><u>Actualizar</u></button>
+
+        </u>
+
+    </p>
+    <p align="center">&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</div>
+
+</body>
+
+</html>
