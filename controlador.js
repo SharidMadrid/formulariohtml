@@ -21,3 +21,7 @@ function inicioSesion(){
 
     console.log(documento.getElementById('usuario').value);
 }
+
+let urlDB;
+urlDB = process.env.MONGD_URI ;
+
